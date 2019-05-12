@@ -38,5 +38,6 @@ The site is available at https://xinitalie.github.io
 
 ### After changing EVERYTHING
 1. open Terminal app
-2. type in: cd xinitalie.github.io	
+2. type in: cd xinitalie.github.io
 3. type in: after_edits.sh
+4. wehn you see " Branch 'master' set up to track remote branch 'master' from 'origin'. ", you can quit Terminal.
