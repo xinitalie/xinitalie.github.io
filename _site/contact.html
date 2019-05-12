@@ -20,51 +20,11 @@
 	
 </nav>
 
-		<script>
-	$(document).ready(function() {
-		var frm = $('#contactForm');
-		frm.bootstrapValidator({
-			fields: {
-				name: {
-					validators: {
-						notEmpty: {
-							message: 'Your name is required'
-						}
-					}
-				},
-				email: {
-					validators: {
-						notEmpty: {
-							message: 'Your email is required'
-						},
-						emailAddress: {
-							message: 'Your email is not valid'
-						}
-					}
-				},
-				message: {
-					validators: {
-						notEmpty: {
-							message: 'Your message is required'
-						}
-					}
-				},
-			}
-		})
-		.on('success.form.bv', function(e) {
-			e.preventDefault();
-			$('#contactForm').hide();
-			$('#status').html("Sending form, please wait...");
-			$('#status').html("Thank you, we've received your message.");
-		});
-	});
-</script>
-
-<h3>CONTACT</h3>
+		<h3>CONTACT</h3>
 <!-- page content -->
 <div class="contact_me">
 	<div class="contact_form">
-		<form action="https://formspree.io/xinitalie@gmail.com" method="POST">
+		<form action="https://formspree.io/xinitalie@gmail.com" method="post" target="_blank">
 			<h4>email</h4>
 			<input class="input" type="email" name="email" placeholder="your email"><br/>
 			<h4>first and last name</h4>
