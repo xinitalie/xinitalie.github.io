@@ -77,7 +77,7 @@ div.travels_post{
 div.travels_post img{
 	float: left;
 	max-width: 40%;
-	padding-right: 15px;
+	padding-right: 2%;
 	max-height: 40%;
 	padding-bottom: 5px;
 }
@@ -104,14 +104,46 @@ div.about_me img{
 	float: left;
 	max-height: 100%;
 	max-width: 35%;
-	padding-right: 15px;
+	padding-right: 2%;
 }
 /* contact page styling */
 div.contact_me{
 	text-align: center;
 	margin: auto;
-	width: 90%;
+	width: 50%;
 	padding-bottom: 40px;
+}
+div.contact_form {
+	display: block;
+	text-align: left;
+	width:100%;
+}
+div.contact_form h4{
+	padding-bottom: 10px;
+}
+#submit {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: white;
+	border: none;
+	font-size: 3.5vw;
+	font-weight: 100;
+	padding: 0px;
+	margin: 0px;
+}
+#submit:hover {
+	color: silver;
+}
+input.input {
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 100%;
+	height: 4vh;
+	font-size: 2vw;
+}
+textarea.input {
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 100%;
+	height: 20vh;
+	font-size: 2vw;
 }
 /* footer navigation styling */
 footer {
