@@ -10,6 +10,7 @@ The site is available at https://xinitalie.github.io
 4. when you see " computer-name:xinitalie.github.io username$ ", you can quit the Terminal app.
 
 ### How To:
+### All photos that start with "test_" can be renamed. Anything with a different name must not be renamed. Any pictures like profile_pic.jpg and head_photo.jpg cannot be changed. not even the ".jpg" part.
 #### 1. Add and Delete Photos
 1. open finder window and to to folder: /xinitalie.github.io/
 2. add/ remove any photos from the folder: /assets/photos/
