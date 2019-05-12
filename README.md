@@ -3,9 +3,14 @@
 
 The site is available at https://xinitalie.github.io
 
+### Before changing ANYTHING
+1. open Terminal app
+2. type in: cd xinitalie.github.io
+3. type in: before_edits.sh
+
 ### How To:
 #### 1. Add and Delete Photos
-1. open finder window and to to folder: xinitalie.xinitalie.github.io/
+1. open finder window and to to folder: /xinitalie.github.io/
 2. add/ remove any photos from the folder: /assets/photos/
 	* photos are sorted alphabetically (numbers before letters) then numerically
 		- ex. 1apples, 2bananas, apples, banana, banana1, banana2, carrots
@@ -30,3 +35,8 @@ The site is available at https://xinitalie.github.io
 2. to edit picture, photo must be in folder: /assets/photos
 	* photo must be called profile_pic.jpg
 3. anything in between the \<p\>\</p\> will appear next to the picture on the left.
+
+### After changing EVERYTHING
+1. open Terminal app
+2. type in: cd xinitalie.github.io	
+3. type in: after_edits.sh
