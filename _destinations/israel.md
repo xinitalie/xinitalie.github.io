@@ -3,4 +3,4 @@ date: 181230
 place: israel
 ---
 
-blah blah blah
+Birthright 2019
