@@ -6,14 +6,20 @@ title: contact
 <!-- page content -->
 <div class="contact_me">
 	<div class="contact_form">
-		<form action="https://formspree.io/xinitalie@gmail.com" method="post" target="_blank">
+		<form id="contact_form" action="https://formspree.io/xinitalie@gmail.com" method="post" target="_blank">
 			<h4>email</h4>
 			<input class="input" type="email" name="email" placeholder="your email"><br/>
 			<h4>first and last name</h4>
 			<input class="input" type="name" name="name" placeholder="your name"><br/>
 			<h4>your message</h4>
 			<textarea class="input" name="message" placeholder="message"></textarea><br/>
-			<button id="submit" type="submit">send</button>
+			<button id="submit" type="submit" onclick="submit()">send</button>
 		</form>
 	</div>
 </div>
+
+<script>
+	function submit(){
+		document.getElementById("contact_form").reset()
+	}
+</script>
