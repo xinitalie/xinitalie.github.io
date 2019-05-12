@@ -12,8 +12,8 @@ The site is available at https://xinitalie.github.io
 ### How To:
 #### 1. Add and Delete Photos
 All photos that start with "test_" can be renamed. Anything with a different name must not be renamed. Any pictures like profile_pic.jpg and head_photo.jpg cannot be changed. not even the ".jpg" part.
-1. open finder window and to to folder: /xinitalie.github.io/
-2. add/ remove any photos from the folder: /assets/photos/
+1. open finder window and go to folder: /xinitalie.github.io/
+2. add/remove any photos from the folder: /assets/photos/
 	* photos are sorted alphabetically (numbers before letters) then numerically
 		- ex. 1apples, 2bananas, apples, banana, banana1, banana2, carrots
 3. DO NOT DELETE/RENAME THE SOCIAL MEDIA LOGOS
@@ -36,10 +36,12 @@ All photos that start with "test_" can be renamed. Anything with a different nam
 1. go to /about.html
 2. to edit picture, photo must be in folder: /assets/photos
 	* photo must be called profile_pic.jpg
-3. anything in between the \<p\>\</p\> will appear next to the picture on the left.
+3. anything in between the \<p\>\</p\> will appear next to the picture on the left. (probably not necessary if using textedit)
 
 ### After changing EVERYTHING
 1. open Terminal app
 2. type in: cd xinitalie.github.io
 3. type in: ./after_edits.sh
-4. when you see " Branch 'master' set up to track remote branch 'master' from 'origin'. computer-name:xinitalie.github.io username$ ", you can quit Terminal.
+4. when you see " Branch 'master' set up to track remote branch 'master' from 'origin'.
+				  computer-name:xinitalie.github.io username$ "
+	you can quit Terminal.
