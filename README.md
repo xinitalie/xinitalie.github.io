@@ -6,7 +6,7 @@ The site is available at https://xinitalie.github.io
 ### Before changing ANYTHING
 1. open Terminal app
 2. type in: cd xinitalie.github.io
-3. type in: before_edits.sh
+3. type in: ./before_edits.sh
 4. when you see " computer-name:xinitalie.github.io username$ ", you can quit the Terminal app.
 
 ### How To:
@@ -41,5 +41,5 @@ All photos that start with "test_" can be renamed. Anything with a different nam
 ### After changing EVERYTHING
 1. open Terminal app
 2. type in: cd xinitalie.github.io
-3. type in: after_edits.sh
+3. type in: ./after_edits.sh
 4. when you see " Branch 'master' set up to track remote branch 'master' from 'origin'. computer-name:xinitalie.github.io username$ ", you can quit Terminal.
