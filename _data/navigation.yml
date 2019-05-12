@@ -1,0 +1,8 @@
+- name: gallery
+  link: /
+- name: travels
+  link: /travels.html
+- name: about
+  link: /about.html
+- name: contact
+  link: /contact.html

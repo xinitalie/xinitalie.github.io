@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<h3>{{ page.place | upcase }}</h3>
+{% capture photopath %}
+	photos/{{ page.place }}
+{% endcapture %}
+{% assign photopath = photopath | strip %}
+<div class="content">
+	{% for image in site.static_files %}
+		{% if image.path contains photopath %}
+			{% if image.path contains 'head_photo'%}
+				<img class="travels_img" src="{{ site.baseurl }}{{ image.path }}" alt="{{ page.place }} photo"/>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+	{{ content }}
+</div>
+<div class="index_images">
+	{% for image in site.static_files %}
+		{% if image.path contains photopath %}
+			{% unless image.path contains 'head_photo'%}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="{{ page.place }} photo"/>
+			{% endunless %}
+		{% endif %}
+	{% endfor %}
+</div>

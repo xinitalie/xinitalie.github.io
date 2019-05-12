@@ -1,0 +1,16 @@
+---
+layout: default
+title: TRAVELS
+---
+<h3>TRAVELS</h3>
+<!-- page content -->
+<div class="travels_posts">
+	{% assign places = site.destinations | sort:'date' | reverse %}
+	{% for place in places %}
+		<div class="travels_post">
+			<img class="travels_img" src="/assets/photos/{{ place.place }}/head_photo.jpg" alt="{{ place.place }} post"/>
+			<a href="{{ place.url }}">{{ place.place | capitalize }}</a>
+			{{ place.excerpt }}
+		</div>
+	{% endfor %}
+</div>

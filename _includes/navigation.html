@@ -1,0 +1,6 @@
+<nav>
+	<h1>XIN ITALIE</h1>
+	{% for item in site.data.navigation %}
+		<a href="{{ item.link }}">{{ item.name }}</a>
+	{% endfor %}
+</nav>

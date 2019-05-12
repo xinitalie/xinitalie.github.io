@@ -1,0 +1,14 @@
+collections:
+  destinations:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "destinations"
+    values:
+      layout: "destination"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
