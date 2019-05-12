@@ -7,6 +7,7 @@ The site is available at https://xinitalie.github.io
 1. open Terminal app
 2. type in: cd xinitalie.github.io
 3. type in: before_edits.sh
+4. when you see " computer-name:xinitalie.github.io username$ ", you can quit the Terminal app.
 
 ### How To:
 #### 1. Add and Delete Photos
@@ -40,4 +41,4 @@ The site is available at https://xinitalie.github.io
 1. open Terminal app
 2. type in: cd xinitalie.github.io
 3. type in: after_edits.sh
-4. when you see " Branch 'master' set up to track remote branch 'master' from 'origin'. ", you can quit Terminal.
+4. when you see " Branch 'master' set up to track remote branch 'master' from 'origin'. computer-name:xinitalie.github.io username$ ", you can quit Terminal.
