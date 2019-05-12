@@ -26,7 +26,7 @@ The site is available at https://xinitalie.github.io
 		- date on destination page goes: yymmdd
 		- no spaces, dashes, stars. only numbers for date. must be in order yymmdd
 #### 3. Edit About Page
-1. go to about.html
+1. go to /about.html
 2. to edit picture, photo must be in folder: /assets/photos
 	* photo must be called profile_pic.jpg
-3. anything in between the \<p\>\<\/p\> will appear next to the picture on the left.
+3. anything in between the \<p\>\</p\> will appear next to the picture on the left.
