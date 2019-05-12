@@ -1,4 +1,4 @@
 # XIN ITALIE
 ## Photography Website
 
-The site is available on https://xinitalie.github.io
+The site is available at https://xinitalie.github.io
