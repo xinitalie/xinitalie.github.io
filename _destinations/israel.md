@@ -3,7 +3,7 @@ date: 181230
 place: israel
 ---
 
-_30 December 2018._ The day I met a group of people that would soon become my closest friends. Over the course of 10 days, we saw more of Israel than I thought was possible. We started in Jerusalem, where we got to celebrate the ringing in of the new year, and left each other in Tel Aviv, where we spent the morning in Sarona Market, coming to terms with saying goodbye.
+30 December 2018. The day I met a group of people that would soon become my closest friends. Over the course of 10 days, we saw more of Israel than I thought was possible. We started in Jerusalem, where we got to celebrate the ringing in of the new year, and left each other in Tel Aviv, where we spent the morning in Sarona Market, coming to terms with saying goodbye.
 
 
 ##### Jerusalem.
@@ -26,4 +26,4 @@ It was sad to say goodbye to the Israelis, and the mood visibly dropped when the
 Our last night was spent in Netanya. We played some games and were then surprised with a goodbye video of pictures from the trip (I cried). Then we had the chance to leave messages for each other on pieces of paper (which I read, then cried again). Our last night ended with a big party that everybody joined in on. It was a good night. Wistful and sentimental, but overall a great ending to a life-changing trip.
 
 
-_09 January 2019._ In just 10 days, I learned so much about myself, the people around me, and the country of Israel. Saying goodbye to my friends was hard, but since the trip I have gotten to see many of them all around the UK. Some have met me in St Andrews, and I have travelled to London, Cambridge, and Durham to see more. I wasn't sure whether I would be able to keep in touch with this group of people, but it has proven to be extremely easy. Birthright UK, thank you.
+09 January 2019. In just 10 days, I learned so much about myself, the people around me, and the country of Israel. Saying goodbye to my friends was hard, but since the trip I have gotten to see many of them all around the UK. Some have met me in St Andrews, and I have travelled to London, Cambridge, and Durham to see more. I wasn't sure whether I would be able to keep in touch with this group of people, but it has proven to be extremely easy. Birthright UK, thank you.
