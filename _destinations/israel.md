@@ -6,7 +6,7 @@ place: israel
 30 December 2018. The day I met a group of people that would soon become my closest friends. Over the course of 10 days, we saw more of Israel than I thought was possible. We started in Jerusalem, where we got to celebrate the ringing in of the new year, and left each other in Tel Aviv, where we spent the morning in Sarona Market, coming to terms with saying goodbye.
 
 
-##### Jerusalem.
+##### Jerusalem
 We spent 2 full days in Jerusalem, one to step into the lives of an Israeli citizen and one to learn about Israel's current affairs. This is also when we met 8 Israelis that were serving in the IDF (Israel Defense Forces). These 8 Israelis were an integral part of our trip, teaching us more about Israel than merely travelling through Israel ever could. In the 2 days that we were in Jerusalem, we visited the Old City (including the Western Wall), the City of David, Mount Herzl, Susan's house, and one of Israel's many startup companies. The City of David has always been one of my favourite parts of Jerusalem, with an amazing view overlooking the Kidron Valley, so it was nice to get to visit it once again.
 
 

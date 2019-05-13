@@ -39,9 +39,15 @@ h4 {
   margin: 0px;
   padding: 0px; }
 
+h5 {
+  font-weight: 100;
+  font-size: 2vw;
+  margin: 0px;
+  padding: 0px; }
+
 p {
   color: #383838;
-  font-size: 2vw; }
+  font-size: 1.3vw; }
 
 /* general page styling */
 div.content {

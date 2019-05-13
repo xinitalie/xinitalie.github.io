@@ -1,3 +1,3 @@
 #!/bin/bash
 git init
-git pull
+git pull --no-edit
