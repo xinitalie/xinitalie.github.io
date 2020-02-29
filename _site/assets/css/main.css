@@ -1,7 +1,12 @@
 /* this is a comment and will not show up on the website */
+html {
+  width: 100%; }
+
 body {
   /* font for the whole page */
-  font-family: 'Open Sans Condensed', sans-serif; }
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 90%;
+  margin: auto; }
 
 /* navigation and header styling */
 nav {
@@ -52,58 +57,87 @@ p {
 /* general page styling */
 div.content {
   margin-left: auto;
-  margin-right: auto;
-  width: 90%; }
+  margin-right: auto; }
 
 div.content img {
   display: block;
-  margin: auto;
-  width: 600px; }
+  margin: auto; }
 
 /* index page styling */
 div.index_images {
   margin-left: auto;
-  margin-right: auto;
-  width: 90%; }
+  margin-right: auto; }
 
 div.index_images img {
+  padding-bottom: 1.5px;
+  width: 100%; }
+
+div.grid-row {
+  line-height: 10px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 7px;
+  -moz-column-count: 2;
+  -moz-column-gap: 7px;
+  column-count: 2;
+  column-gap: 7px; }
+
+div.grid-row img {
+  padding-bottom: 7px;
   width: 100%;
-  padding-bottom: 15px; }
+  height: auto; }
 
 /* travels page styling */
-div.travels_posts {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%; }
-
-div.travels_post {
+div.collection {
+  position: relative;
+  text-align: center;
   clear: both;
-  padding-bottom: 40px; }
+  margin-bottom: 7px;
+  margin-right: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
 
-div.travels_post img {
-  float: left;
-  max-width: 40%;
-  padding-right: 2%;
-  max-height: 40%;
-  padding-bottom: 5px; }
+img.header {
+  display: block;
+  width: 100%;
+  transition: .4s ease;
+  padding-bottom: 1.5px; }
 
-div.travels_post a {
-  font-weight: 100;
-  font-size: 3.5vw;
-  margin: 0px;
-  padding: 0px;
-  color: black; }
+div.image_text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease; }
 
-div.travels_post a:hover {
-  text-decoration: none; }
+div.collection:hover div.image_text {
+  opacity: 1; }
 
-div.travels_post p {
-  font-size: 1.25vw; }
+div.collection:hover img.header {
+  opacity: 0.6; }
+
+div.collection a {
+  color: black;
+  font-size: 5vw;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+div.collection a:hover {
+  color: #C0C0C0; }
 
 /* about page styling */
 div.about_me {
   margin: auto;
-  width: 90%;
   padding-bottom: 40px; }
 
 div.about_me img {
@@ -164,3 +198,20 @@ img.social_logo {
   padding-left: 1%;
   padding-right: 1%;
   width: 3%; }
+
+@media screen and (max-width: 1500px) {
+  div.grid-row {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2; } }
+@media screen and (max-width: 1024px) {
+  div.grid-row {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1; } }
+@media only screen and (max-device-width: 1700px) {
+  div.collection div.image_text {
+    opacity: 1; }
+
+  div.collection img.header {
+    opacity: 0.6; } }

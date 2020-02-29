@@ -5,12 +5,13 @@ title: travels
 <h3>TRAVELS</h3>
 <!-- page content -->
 <div class="travels_posts">
-	{% assign places = site.destinations | sort:'date' | reverse %}
+	{% assign places = site.destinations | sort:'place' %}
 	{% for place in places %}
-		<div class="travels_post">
-			<img class="travels_img" src="/assets/photos/{{ place.place }}/head_photo.jpg" alt="{{ place.place }} post"/>
-			<a href="{{ place.url }}">{{ place.place | capitalize }}</a>
-			{{ place.excerpt }}
+	<div class="collection">
+			<img class="header" src="/assets/photos/{{ place.place }}/head_photo.jpg" alt="{{ place.place }} post"/>
+		<div class="image_text">
+			<a href="{{ place.url }}">{{ place.place | downcase }}</a>
 		</div>
+	</div>
 	{% endfor %}
 </div>
