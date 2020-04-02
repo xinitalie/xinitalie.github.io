@@ -1,7 +1,7 @@
 - name: gallery
   link: /
-- name: travels
-  link: /travels.html
+- name: collections
+  link: /collections.html
 - name: about
   link: /about.html
 - name: contact
